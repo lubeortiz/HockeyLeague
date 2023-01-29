@@ -75,3 +75,6 @@ section {
     margin-right: 50px;
 }
 
+p a {
+    text-decoration-color: black;
+}
