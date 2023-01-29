@@ -1,0 +1,77 @@
+* {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 250px;
+    background-image: url("../img/design1_image1.jpg");
+    background-position: center 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    background-color: white;
+    position: relative;
+    right: -70%;
+    top: 60%;
+}
+
+h1 {
+    font-size: 80px;
+    text-shadow: 2px 1px 2px white;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 0;
+    height: 40px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div h4 {
+    margin-bottom: 0;
+}
+
+div p {
+    margin-top: 0;
+}
+
+.navbar {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.navbar a {
+    color: black;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: rgb(94, 93, 93);
+}
+
+.navbar a.active {
+    font-weight: bold;
+}
+
+section {
+    margin-left: 200px;
+    margin-right: 50px;
+}
+

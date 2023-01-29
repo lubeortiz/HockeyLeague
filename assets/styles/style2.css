@@ -1,0 +1,80 @@
+* {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    position: relative;
+    top: 80px;
+    height: 250px;
+    background-image: url("../img/design1_image2.jpg");
+    background-position: center 20%;
+}
+
+.logo {
+    width: 120px;
+    position: relative;
+    top: 130%;
+}
+
+h1 {
+    position: relative;
+    top: -110%;
+    font-size: 80px;
+    text-shadow: 2px 1px 2px white;
+}
+
+h3 {
+    font-size: 25px;
+    margin-top: 80px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div h4 {
+    margin-bottom: 0;
+}
+
+div p {
+    margin-top: 0;
+}
+
+.navbar {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+}
+
+.navbar a {
+    color: white;
+    display: inline;
+    padding: 15px;
+    margin-right: 10px;
+    background-color: rgb(59, 117, 224);
+    border: 1px solid black;
+    box-shadow: 5px 5px #8f8f8f98;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(19, 89, 218) ;
+}
+
+.navbar a.active {
+    background-color: rgb(19, 168, 19);
+    font-weight: bold;
+}
+
+section {
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
