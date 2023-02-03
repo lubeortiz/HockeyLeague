@@ -24,6 +24,11 @@ header {
     position: relative;
     right: -70%;
     top: 60%;
+    transition: transform .2s;
+}
+
+.logo:hover {
+    transform: scale(1.5);
 }
 
 h1 {
@@ -34,47 +39,135 @@ h1 {
 
 h3 {
     font-size: 25px;
-    margin-top: 0;
+    margin-bottom: 0;
     height: 40px;
     color: rgba(255, 255, 255, 0.9);
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-div h4 {
+article h4 {
     margin-bottom: 0;
 }
 
-div p {
+article p {
     margin-top: 0;
 }
 
-.navbar {
-    position: absolute;
-    margin-top: 35px;
-    margin-left: 10px;
-    width: 200px;
+nav {
+    height: 40px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.navbar a {
+nav a {
     color: whitesmoke;
     display: block;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
 }
 
-.navbar a:hover {
+nav a:hover {
     color: rgb(206, 206, 206);
 }
 
-.navbar a.active {
+a i {
+    display: block;
+    opacity: 100;
+}
+
+a:hover i {
+    display: none;
+    opacity: 0;
+}
+
+a span {
+    display: none;
+    opacity: 0;
+}
+
+a:hover span {
+    display: block;
+    opacity: 100;
+}
+
+nav a.active {
     font-weight: bold;
 }
 
-section {
-    margin-left: 200px;
-    margin-right: 50px;
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 200px 0 200px;
 }
 
+.subsection {
+    align-self: flex-start;
+}
+
+.subsection-table {
+    margin-top: 20px;
+}
+
+.subsection-info {
+    padding-left: 20px;
+}
+
+.subsection-info article {
+    align-self: center;
+}
+
+.message {
+    text-decoration: solid;
+    font-style: italic;
+    margin: 0;
+}
+
+table {
+    border-collapse:separate; 
+    border-spacing: 0 1em;
+}
+
+tr th {
+    padding: 0 30px 0 30px;
+}
+
+tr td {
+    text-align: center;
+}
+
+.contacts-questions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.indent-50 {
+    text-indent: 50px;
+}
+
+.mt-0{
+    margin-top: 0;
+}
+
+.mb-0{
+    margin-bottom: 0;
+}
+
+ol li {
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 20px;
+    list-style-type:circle;
+}
