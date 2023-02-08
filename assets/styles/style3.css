@@ -10,10 +10,10 @@ body {
 }
 
 header {
-    height: 250px;
+    height: 350px;
     background-image: url("../img/design1_image1.jpg");
     opacity: 0.7;
-    background-position: center 40%;
+    background-position: center 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,6 +127,17 @@ nav a.active {
     align-self: center;
 }
 
+.about-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.images img{
+    margin-right: 20px;
+    max-width: 250px;
+}
+
 .message {
     text-decoration: solid;
     font-style: italic;
@@ -136,6 +147,10 @@ nav a.active {
 table {
     border-collapse:separate; 
     border-spacing: 0 1em;
+}
+
+tr:hover {
+    background-color: #969696;
 }
 
 tr th {
@@ -170,4 +185,14 @@ ol li {
 ul li {
     margin-bottom: 20px;
     list-style-type:circle;
+}
+
+.maps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+iframe {
+    margin: 3px;
 }
